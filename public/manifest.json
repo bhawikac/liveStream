@@ -1,0 +1,9 @@
+{
+  "short_name": "Consumer Web",
+  "name": "Consumer Web",
+  "verson": "2.0.0.000",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
