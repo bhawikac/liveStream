@@ -1,0 +1,231 @@
+{
+    "app": {
+        "welcome": "Welcome",
+        "Update ": "A new version is available, please refresh your browser.",
+        "OgTagDescription": "Any time, anywhere: A club-quality group exercise experience wherever your customers may be, and whenever they want to train.",
+        "UnSupportedBrowser": "Your browser is not supported. We recommend installing the latest version of a supported browser:",
+        "OgTagTitle": "wexer"
+    },
+    "layout": {
+        "SignIn": "Log in",
+        "LogOut": "Log out",
+        "SignUp": "Sign up"
+    },
+    "footer": {
+        "home": "Home",
+        "contactUs": "Contact us",
+        "TermsAndConditions": "Privacy Policy & Terms of Use",
+        "Copyright": " 2020. All rights reserved.",
+        "classes": "Classes",
+        "MarketingConsent": "Marketing Consent",
+        "Build": "Build"
+    },
+    "Player": {
+        "Exit": "Exit",
+        "VideoError": "An error occurred attempting to play this title. Please try again and if the problem persists, please contact us.",
+        "WorkOutCompleted": "Completed: ",
+        "WorkOutCompletedMessage": "Good job. See you next time.",
+        "Done": "Done",
+        "Leave": "Leave class",
+        "Start": "Start",
+        "Finish": "Leave",
+        "LeaveConfirmation": "Are you sure you want to leave this class?",
+        "Mins": "Mins",
+        "min": "min"
+    },
+    "UpdateProfile": {
+        "Update": "Update",
+        "FirstNameRequired": "First name is required",
+        "LastNameRequired": "Last name is required",
+        "EditProfile": "Edit profile"
+    },
+    "ClassListViews": {
+        "NoFavMessage": "You don't currently have any favourite classes.",
+        "FavTitle": "Favourites",
+        "NoRecentMessage": "No recent activities found.",
+        "SearchTitle": "Search",
+        "NoSearchMessage": "No results found.",
+        "CriteriaRequired": "Enter class name to search",
+        "ContentProvider": "Provider",
+        "Type": "Type",
+        "Duration": "Duration",
+        "MyActivity": "My activity",
+        "Search": "Class finder",
+        "Account": "Account",
+        "ViewAll": "View all",
+        "BrowseCollections": "Browse collections",
+        "ResetFilters": "Reset filters",
+        "NoClassesFound": "No classes found, there was an error connecting to the server. Please try again and if the problem persists, please contact us.",
+        "Filter": "Filter",
+        "Collections": "Collections",
+        "DurationPlaceholder": "Select duration",
+        "TypePlaceholder": "Select type",
+        "ProviderPlaceholder": "Select provider",
+        "10mins": "10 min",
+        "20mins": "20 min",
+        "30mins": "30 min",
+        "plusmins": "40+ min",
+        "goToClassOfTheDayDetailButton": "Go to class",
+        "checkoutClassOfTheDay": "Check out our daily featured class, hand-picked by our team to save you the effort. Enjoy your training.",
+        "class": "Class",
+        "classes": "Classes",
+        "SearchClasses": "Search Classes"
+    },
+    "homePage": {
+        "MarketingTagLine": "Your marketing tagline goes here.",
+        "MarketingDescription": "Offer your audience the best On Demand classes, anytime, anywhere.",
+        "ExploreClasses": "Explore",
+        "ClassTitleText": "Hundreds of On Demand Classes",
+        "ClassSubTitleText": "Huge choice, whatever your interests or preferences are. Browse collections, or search the library to get what you need fast.",
+        "SeeAllClasses": "See all classes",
+        "FreeAccessTitle": "Your members"
+    },
+    "freeTrial": {
+        "Title": "Access with your code",
+        "Description": "If you already have an access code, you can get full access in seconds. Simply enter your code to get going."
+    },
+    "login": {
+        "Title": "Log In",
+        "EmailRequired": "Email address is required",
+        "EmailValidFormat": "Please enter a valid email address",
+        "PasswordRequired": "Password is required",
+        "ForgotPassword": "Forgot password",
+        "Disclaimer": "Your data is important to us. We protect your data at all times, and will never share it with a third party without your explicit consent. Read our Terms of Use and Privacy Policy.",
+        "DeniedAccessText": "Upgrade your membership",
+        "DeniedAccessText2": "In order to access the content, you need to upgrade your membership. Please contact customer service.",
+        "LoginSubTitle": "Please enter your details to log in."
+    },
+    "contact": {
+        "Title": "Contact us",
+        "Email": "Email address",
+        "Name": "Name",
+        "NameRequired": "Name is required",
+        "Message": "Message",
+        "MessageRequired": "Please enter a message",
+        "Send": "Send",
+        "ThanksMessage": "Your message has been sent.",
+        "Thanks": "Thanks",
+        "BackToHome": "Back to Home"
+    },
+    "club": {
+        "Title": "Connect",
+        "Description": "Live and pre-recorded classes with your favourite club instructors",
+        "Dropdown": "Choose club",
+        "Id": "Connect"
+    },
+    "liveStream": {
+        "NoResult":"No live classes found, check out the recorded live classes below.",
+        "Today": "Today",
+        "RecordedClasses":"Recorded Classes",
+        "ViewDetails":"View Details",
+        "Join":"Join"
+    },
+    "Subscription": {
+        "SelectButtonTitle": "Select",
+        "Title": "Subscription",
+        "SelectSubscription": "Please pick a subscription to continue accessing the content. You can cancel at any time.",
+        "ActiveSubscriptionMessage": "You are currently being billed {currency}{amount} {duration}.",
+        "CanceledSubscriptionMessage": "Your current subscription will end on {subEndDate}.",
+        "NoActiveSubscription": "No active subscription found.",
+        "FreeAccessSubscription": "You have access through your free access code.",
+        "EnterCodeSubText": "Offer your members a free trial, after which they will be prompted to buy a subscription or enter a coupon code for a discount or continued free use.",
+        "GetAccess": "Sign up",
+        "Cancel": "Cancel subscription",
+        "CancelText": "Are you sure you want to cancel?",
+        "FreeTrialActiveMsg": "You are currently on a free trial.",
+        "Subscriptionpurchased": "Thanks for subscribing, you now access the content. Enjoy your training.",
+        "UpgradeMembership": "Upgrade your membership",
+        "UpgradeMessage": "You don’t have a valid subscription. Please upgrade your membership to continue.",
+        "Ok": "Ok",
+        "Subscription": "subscription",
+        "Apply": "Apply",
+        "pay": "Pay",
+        "FinalHead": "Payment complete",
+        "backbutton": "Go to classes",
+        "FinalMsg": "Your subscription is now active! Enjoy your training.",
+        "cancelPaymentMsg": "Secure payment through Stripe. Cancel at any time from your account page.",
+        "discountInvoice": "Discounted invoices: 1",
+        "PaymentPageTitle": "Payment",
+        "Remove": "Remove",
+        "Save": "Save",
+        "SubscriptionExpiredText": "You need to upgrade your membership. Please contact {email} to access the content.",
+        "FACLimitedSubscriptionMessage": "You currently have access through your Free Access Code until {subEndDate}.",
+        "FACSubscriptionMessage": "You currently have access through your Free Access Code.",
+        "FACExpiredText": "Your access code has expired. If you have a new access code, please go to your account screen where you can enter it to continue accessing the content."
+    },
+    "UserAccount": {
+        "Title": "My account",
+        "GetAccess": "Get Access",
+        "EnterCodeDialogHeading": "Enter code",
+        "EnterCodeDialogSubHeading": "Enter a Free Access Code to continue accessing the classes.",
+        "EnterCodeInputLabel": "Enter code",
+        "EnterCodeButton": "Enter code"
+    },
+    "Profile": {
+        "Title": "Profile",
+        "ProfileUpdated": "Your profile has been updated successfully.",
+        "EmailUpdated": "Your email has been updated successfully."
+    },
+    "Actions": {
+        "Edit": "Edit",
+        "Cancel": "Cancel",
+        "Yes": "Yes",
+        "No": "No",
+        "Accept": "Accept",
+        "Loading": "Loading"
+    },
+    "Signup": {
+        "Title": "Sign up",
+        "FName": "First name",
+        "LName": "Last name",
+        "Email": "Email",
+        "Password": "Password",
+        "FreeAccessCodeFeild": "Club Access Code (optional)",
+        "FreeAccessCode": "Free access code",
+        "FreeAccessCodeRequired": "Please enter Club Access Code",
+        "FreeTrialSignUp": "You’re all signed up and ready to start. Enjoy!",
+        "CodeSignUp": "You’re all signed up and ready to start. Enjoy!",
+        "PleaseWait": "Please wait",
+        "SignUpSubTitle": "To start your free trial, simply fill in your details to get going."
+    },
+    "Reconsent": {
+        "TncTitle": "Updated Privacy Policy and Terms of Use",
+        "MktgTitle": "MARKETING POLICY"
+    },
+    "ForgetPassword": {
+        "PasswordMismatch": "Password mismatch",
+        "Regex": "Your password must contain at least 1 letter and 1 number, and have a minimum of 8 characters.",
+        "EnterNewPassword": "Enter new password",
+        "ConfirmPassword": "Repeat password",
+        "Sent": "Email sent",
+        "SentMessage": "Your reset email has been sent. Please check your email and follow the instructions to reset your password.",
+        "ForgotPasswordMessage": "Please enter your email, and we will send you a reset password link.",
+        "ForgotPassword": "Password reset"
+    },
+    "ApiResponseStrings": {
+        "EmailaddressInUse": "Email address already in use",
+        "GenericError": "An error occurred. Please try again and if the problem persists, please contact us.",
+        "InvalidDataPassed": "Your session has expired, please log in again.",
+        "ForgotPasswordAccountNotFound": "No account could be found associated with this email address.",
+        "InternalServerError": "Internal server error",
+        "InvalidUserNameOrPassword": "Invalid username or password",
+        "InvalidCoupon": "Invalid coupon code",
+        "ResetTokenExpired": "Reset token has expired, please click the reset password link to request a new reset password email.",
+        "ResetSuccessful": "Password reset successfully",
+        "AlreadyActiveSubscription": "It appears that you already have an active subscription."
+    },
+    "TnCPage": {
+        "tncAccept": "You must accept the terms to proceed.",
+        "dialogText": "Terms and Conditions"
+    },
+    "Payment": {
+        "CardNumber": "Card number",
+        "Expiration": "Expiration",
+        "Cvc": "CVC",
+        "DiscountCode": "Enter discount code"
+    },
+    "Error": {
+        "404": "404",
+        "NotFound": "This page does not exist."
+    }
+}

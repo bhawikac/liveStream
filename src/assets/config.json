@@ -1,0 +1,28 @@
+{
+  "name": "wexerdemo",
+  "primaryColor": "#36dcb6", 
+  "secondaryColor": "#36dcb6", 
+  "accentColor":"#259a7f",
+  "backgroundTheme": "#36dcb6", 
+  "barColor": "#ffffff",
+  "dividerColor": "transparent",
+  "errorColor": "#d0021b",
+  "language": "en", 
+  "imageFolder": "Vitality",
+  "appTitle": "Wexer",
+  "ClientDisplayName": "Connected Fitness Labs",
+  "supportEmail": "customerservices@roncari-clubs.co.uk",
+  "isThirdPartyEnabled": false,
+  "numberOfDaysToShowNewOnWorkoutCard" : 30,
+  "reactAppStripeKey": "",
+  "localyticsKey":"",
+  "currency": "£", 
+  "AccessCodeMandatory":false,
+  "ShowLiveConnect":true,
+  "ShowDiscountTextFeild":true, 
+  "showClassOfTheDay":true,
+  "showLiveEvent": true,
+  "EventCardSize" : 3
+   
+}
+ 
