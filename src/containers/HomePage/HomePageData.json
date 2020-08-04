@@ -1,0 +1,52 @@
+{
+    "classes":[
+        {
+            "id":"class1",
+            "name":"class 1",
+            "text": "Cardio",
+            "image":"class1.jpg",
+            "subTitle":"14 mins"
+        },
+        {
+            "id":"class2",
+            "name":"class 2",
+            "text": "HIIT 45",
+            "image":"class2.jpg",
+            "subTitle":"20 mins"
+        },
+        {
+            "id":"class3",
+            "name":"class 2",
+            "text": "Class 2",
+            "image":"class3.jpg",
+            "subTitle":"30 mins"
+        },
+        {
+            "id":"class4",
+            "name":"class 2",
+            "text": "Class 2",
+            "image":"class4.jpg",
+            "subTitle":"30 mins"
+        }
+    ],
+    "clubs":[
+        {
+            "id":"club1",
+            "name":"club1",
+            "text": "Club 1",
+            "image":"club1.png"
+        },
+        {
+            "id":"club2",
+            "name":"club2",
+            "text": "Club 2",
+            "image":"club1.png"
+        },
+        {
+            "id":"club3",
+            "name":"club2",
+            "text": "Club 2",
+            "image":"club1.png"
+        }
+    ]
+}

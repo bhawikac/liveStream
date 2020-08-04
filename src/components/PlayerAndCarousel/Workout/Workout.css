@@ -1,0 +1,345 @@
+.workout {
+    cursor: pointer;
+    animation: slideIn 0.2s linear;
+    transition: opacity 0.2s;
+    padding: 0 5px;
+}
+
+.trailerButton {
+    margin-top: 180px !important;
+}
+
+.slidertrailerButton {
+    margin-top: -45px !important;
+}
+
+.plyr__video-wrapper,
+.plyr__video-wrapper--fixed-ratio {
+    padding-bottom: 0px !important;
+}
+.classofthedaydetailbox{
+    background-color: #ffffff;
+    height: 208px;
+    margin-right: 4px;
+    padding-top: 19px;
+    padding-left: 22px;
+    padding-right: 13px;
+    text-align: left;
+    justify-content: flex-start;
+    margin-top: 76px;
+}
+.plyr {
+    outline: none !important;
+}
+
+.classDetailTrailer{left: 28%;}
+.NEW {
+    height: 16px;
+    font-size: 8px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+.plyr__controls,
+.plyr__control,
+.plyr__control--overlaid,
+.plyr__tab-focus {
+    display: none !important;
+}
+
+.newButtononCards {
+    margin-right: 25px !important;
+}
+
+.workoutPlayer {
+    object-fit: contain;
+    overflow: hidden;
+    width: 100%;
+}
+.live .workoutPlayer{
+    position: relative;
+  }
+  .live .workout-day{
+      font-family: SFProRounded-Medium !important;
+  }
+  .live .workout-desc{
+      font-size: 17px;
+      font-family: SFProDisplay-Bold;
+      margin: 5px 0 !important;
+  }
+  .live .view-btn{
+    position: inherit;
+    bottom: 16px;
+  }
+.Trailer>iframe {
+    display: none !important;
+}
+
+.Trailer {
+    height: auto !important;
+    cursor: pointer;
+}
+
+.Trailer>.vjs-poster {
+    outline: none;
+    position: unset;
+    margin-top: 0px !important;
+    object-position: top center;
+    background-position: 0% 0%;
+    background-size: contain !important;
+    transition: all 0.2s linear;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    width: 100%;
+    max-width: 400px !important;
+    background-color: transparent;
+}
+
+.Trailer {
+    background-size: contain !important;
+    object-fit: contain;
+}
+
+.workoutPlayer>.vjs-button {
+    width: 100px !important;
+}
+
+.Trailer>.vjs-tech {
+    outline: none;
+    background-size: contain !important;
+    transition: all 0.2s linear;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    width: 100%;
+    max-width: 400px !important;
+}
+
+.Trailer>.vjs-matrix .vjs-control-bar {
+    height: 63px !important;
+}
+
+.workout .thumbnail {
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+    height: 225px !important;
+    background-size: contain !important;
+    transition: all 0.2s linear;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    /* width: 400px !important; */
+    min-width: 400px !important;
+    /* max-width: 400px !important; */
+}
+
+.workout>p {
+    font-weight: bold;
+    font-size: 12px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color: #3c3c3b;
+}
+
+.iconfont {
+    height: 12px;
+    font-size: 10px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #3c3c3b;
+}
+
+.workout-footer {
+    margin-top: -6px;
+    height: auto;
+    width: inherit;
+    /* max-width: 400px; */
+    display: block;
+    text-align: left;
+    /* box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16); */
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    overflow: hidden;
+    color: #000000;
+}
+
+.cardDescription {
+    margin-top: -25px;
+    padding-right: 30px;
+    margin-right: 5px;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+.cardDescription-slider {
+    /* margin-top: -20px; */
+    /* padding-right: 30px; */
+    /* margin-right: 5px; */
+    word-wrap: normal;
+    word-break: normal;
+    overflow: "hidden";
+    text-overflow: "ellipsis";
+}
+
+.Body-weight {
+    border: solid 1px #d3d3d3;
+    border-radius: 2px;
+    padding-left: 2px;
+    padding-right: 2px;
+    height: 16px;
+    font-size: 10px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.6;
+    letter-spacing: normal;
+    text-align: right;
+    color: #3c3c3b;
+}
+
+.keywordGrid {
+    max-height: 20px !important;
+    position: relative;
+    align-items: flex-start !important;
+    align-content: flex-start;
+    margin-bottom: 20px;
+}
+
+.keywordItem {
+    padding-left: 2.5px;
+    padding-right: 2.5px;
+}
+
+.bottomKeywords {
+    height: 15px;
+    border-radius: 2px;
+    margin-left: 5px;
+}
+/* Featured Big card CSS */
+.featured-head {
+    /* margin-top:20px !important; */
+    font-size: 40px !important;
+    display: inline-block;
+}
+
+.featured-p{
+    font-size: 20px !important;
+    margin-bottom: 10px !important;
+    color: #8e8e93 !important;
+    letter-spacing: normal !important;
+}
+.featured-iconText{
+    font-size: 22px !important;
+    margin-left: 10px !important;
+    line-height: 1.9 !important;
+}
+.featured-labelNew{
+    font-family: SFProRounded-Regular;
+    font-size: 11px;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 3px;
+    padding: 2px 4px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.36;
+    letter-spacing: normal;
+    margin: 4px 6px 6px 10px;
+    vertical-align: super;
+}
+.small-icon{    width: 24px; }
+.workout-footer-p {    
+    color: #000000;
+    display: inline;
+}
+
+.workout-footer span {
+    font-size: 13px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #727271;
+    bottom: 10px;
+}
+
+.workoutCard {
+    padding: 10px;
+}
+.tncClose{ margin-top: 19px !important;
+        margin-right: 17px !important;
+}
+@media (max-width:1279px){
+    .classofthedaydetailbox{
+  display: none !important;
+    }
+}
+@media (min-width: 1920px) {
+    .workoutCard {
+        padding: 16px;
+    }
+}
+@media (max-width: 450px){
+    /* .workout-footer img, .icon{width: 18px;} */
+}
+@media (min-width: 1200px) and (max-width: 1920px) {
+    .workoutCard {
+        padding: 16px;
+    }
+    .workoutsDiv {
+        max-width: 1200px;
+        margin: auto;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1200px) {
+    .workoutCard {
+        padding: 16px;
+    }
+}
+
+@media (max-width:720px) {
+    .hide-xs{visibility: hidden;
+        height: 32px;}
+        .workout-footer-p {
+            font-family: SFProDisplay-Bold !important;
+        }
+    .workoutsDiv {
+        justify-content: center;
+    }
+    .workout-footer-p, .cardDescription-p{
+        margin-top: 5px!important;
+        margin-bottom: 0px!important;
+
+    }
+    .featured-head {
+        margin-top:0px !important;
+        font-size: 22px !important;
+    }
+    
+        .featured-p { 
+            font-size: 17px !important;
+            margin-top: 5px !important;
+        }
+        .featured-iconText {
+            font-size: 15px !important;
+            margin-left: 0px !important;
+            line-height: 22px !important;
+            min-width: 70px;
+        }
+        .workout-footer img, .icon{max-width: 22px; height: 22px;}
+        /* .view-btn {
+            margin-left: 16px!important;
+            margin-right: 16px !important;
+        } */
+        .classDetailTrailer{left: 200px;}
+        h6.text-gray{font-size: 17px;}
+        .tncClose{margin-top: 10px !important;}
+}

@@ -1,0 +1,17 @@
+.not-found {
+  display: flex;
+  margin-top: 30px;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+}
+
+.not-found-icon {
+  width: 86px;
+  height: 86px;
+  color: #ff0000;
+}
+
+.error {
+  color: red;
+}

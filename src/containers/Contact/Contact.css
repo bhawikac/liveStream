@@ -1,0 +1,9 @@
+.messageHolder textarea{
+    min-height: 108px;
+}
+
+.thanks{
+    font-size: 12px;
+
+    color: #727271;
+}
