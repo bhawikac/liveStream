@@ -1,0 +1,79 @@
+.fixedWidthGrid {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.subscriptionRow {
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.subscriptionPlan {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 50%
+}
+
+.subscriptionPlanTitle {
+    padding-left: '16px';
+    text-align: left;
+}
+
+.offerTextBox {
+    background-color: #ec1681;
+    width: 65px;
+    height: 18px;
+    border-radius: 3px;
+    color: #ffffff;
+    margin-left: 11px;
+    justify-content: center;
+}
+
+.offerText {
+    margin-top: 2px;
+    font-family: SFProRounded-Regular;
+    font-size: 11px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.36;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+}
+
+.selectButton {
+    width: 140px;
+    height: 28px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.subscriptionSelectButton {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 50%;
+}
+
+@media (max-width: 450px) {
+    .subscriptionPlan {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        width: 60%
+    }
+    .subscriptionSelectButton {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        width: 40%;
+    }
+    .selectButton {
+        cursor: pointer;
+        width: 60px;
+        height: 28px;
+        color: #fff;
+    }
+}
