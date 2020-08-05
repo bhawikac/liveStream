@@ -1,0 +1,61 @@
+
+.no-video-image{
+    height: auto !important;
+  }
+  .no-video-trailer{
+    height: auto !important;
+  }
+  .vjs-poster{
+    outline: none;
+    position: relative;
+    background-size: contain !important;
+    transition: all 0.2s linear;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    width:100%;
+    max-height: 354px;
+    max-width: 656px !important;
+  }
+  .no-video-image > .vjs-control-bar {
+    display: none;
+  }
+  .no-video-image > .vjs-text-track-display {
+    display: none;
+  }
+  .no-video-image {
+    background-size: contain !important;
+    object-fit: contain;
+  }
+  .vjs-modal-dialog-content {
+    display: none !important;
+  }
+  .vjs-button {
+    display: none;
+  }
+  .no-video-image > .vjs-big-play-button{
+    display: none;
+  }
+  .vjs-close-button {
+    display: none;
+  }
+  .vjs-control-text {
+    display: none;
+  }
+  .no-video-image > .vjs-tech {
+    outline: none;
+    background-size: contain !important;
+    transition: all 0.2s linear;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    width: 100%;
+    max-height: 354px;
+    margin: 0px;
+    max-width: 654px !important;
+  }
+ 
+  .vjs-modal-dialog-description .vjs-control-text {
+    display: none;
+  }
+  .no-video-image > .vjs-modal-dialog .vjs-hidden .vjs-text-track-settings {
+    display: none;
+  }

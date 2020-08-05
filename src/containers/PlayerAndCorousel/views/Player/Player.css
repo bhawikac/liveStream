@@ -1,0 +1,1075 @@
+@keyframes slideInLeft {
+  from {
+    transform: translateX(-300px);
+    opacity: 0.2;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+} 
+
+.fadeOnLoad {
+  -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 2s; /* Firefox < 16 */
+  -ms-animation: fadein 2s; /* Internet Explorer */
+  -o-animation: fadein 2s; /* Opera < 12.1 */
+  animation: fadein 2s;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.ClassPlayer{
+  border-radius: 0px !important;
+}
+.PlayerIcon{
+  width: 34px !important;
+}
+.featured-iconText-Player{
+  margin-right: 47px;
+  margin-left: 15px;
+  height: 30px;
+  font-family: SFProDisplay-regular !important;
+  font-size: 22px !important;
+  font-weight: normal !important;
+  font-stretch: normal !important;
+  font-style: normal !important;
+  line-height: 1.36 !important;
+  letter-spacing: -0.2px !important;
+  color: #000000;
+}
+
+.player-bg {
+  min-height: 100vh;
+  overflow: hidden;
+  transition: background 1s ease;
+}
+.vjs-poster {
+  display: none !important;
+}
+
+.vjs-big-play-button {
+  display: none !important;
+   
+}
+.no-video {
+  display: flex;
+  width: 70%;
+}
+.no-video-image {
+  width: 100%;
+  height: 354px;
+  background: linear-gradient(rgba(25, 27, 27, 0.5), rgba(140, 146, 148, 0.5));
+}
+.no-video-trailer {
+  width: 656.7px;
+  height: 354px;
+}
+
+.video-wrapper {
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /*  animation: slideInLeft 0.3s ease; need to discuss**/
+  overflow: hidden;
+}
+
+.no-backGroung {
+  background: #000;
+}
+
+.video-js .vjs-play-control,
+.video-js .vjs-mute-control {
+  outline: none !important;
+} 
+.video-wrapper iframe {
+  /* optional */
+  width: 100vw;
+  height: 100vh;
+}
+.DoneTimer{
+  width: 49px ;
+  height: 49px;
+}
+.video-js {
+  /* position: relative; */
+  width: 64vw;
+  max-width: 1040px !important;
+  max-height: 584px !important;
+  height: 36vw ;
+  
+  object-fit: fill;
+  overflow: hidden;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.new-video-metadata{
+  width: 64vw;
+  max-width: 1040px !important;
+  max-height: 584px !important;
+  margin: 0 auto;
+  text-align: left;
+  margin-top: 16px;
+}
+.vido-metadata-row{
+  display: flex;
+  flex-direction: row;
+  line-height: 1.0 !important;
+ justify-content: space-between;
+}
+.player-overlay {
+  margin-top: 15px;
+  color: var(--wteal);
+  max-width: 100%;
+  /* position:absolute;
+  bottom:0px; */
+  padding-left: 20px;
+  padding-right: 20px;
+  /* padding-bottom:18px;
+  padding-top: 12px; */
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(1, 1, 1, 0.8);
+  opacity: 0.8;
+}
+ 
+.PlayerDetailsHolder {
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  text-align: left;
+}
+
+.player-spinner {
+  position: absolute;
+  left: 50%;
+}
+
+.OpacityOverVideo {
+  width: 100%;
+  height: 100%;
+  color: white;
+  text-transform: uppercase;
+  background-color: rgb(0, 0, 0, 0.4);
+}
+.video-paused-infobox {
+  width: 64vw;
+    max-width: 1040px !important;
+    max-height: 584px !important;
+    height: 36vw;
+  position: relative;
+  
+ 
+  /* padding-left: calc(10% - 120px); */
+  /* padding-top: 10%; */
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+}
+
+/* #videoBlock:hover .video-paused-infobox-leave{
+  visibility: visible;
+} */
+
+.video-paused-infobox_button {
+  display: flex;
+  margin: 0 auto;
+  flex-flow: column;
+}
+
+.video-paused-infobox_button > * {
+  margin-top: 5px;
+  text-align: center;
+}
+
+.video-paused-infobox-leave {
+  padding-left: 20px;
+  padding-top: 40px;
+  padding-bottom: 10px;
+  position: absolute;
+  top: 2px;
+  left: 0px;
+  width: 100%;
+  flex-flow: column wrap;
+  font-size: 24px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: italic;
+  color: white;
+  text-transform: uppercase;
+  background-color: rgb(0, 0, 0, 0.4);
+  height: 4em !important;
+  /* opacity: 0.4; */
+}
+
+/* .video-paused-infobox-leave > *{
+  opacity: 1;
+} */
+.LeaveConfirmationTextButton{
+  height: 28px !important;
+  margin-bottom: 22px;
+}
+.workout-complete-infobox {
+  position: absolute;
+  top: 30%;
+  left: calc(50% - 280px);
+  display: flex;
+  flex-direction: column;
+  color: white;
+  align-items: center;
+}
+
+.titleOverModal {
+  font-size: 14px;
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  color: white;
+  margin-bottom: 10px;
+  font-style: italic;
+}
+
+.video-paused-infobox-leave > * {
+  /* margin: 5px 0; */
+  text-align: center;
+}
+
+.player-thumb {
+  position: relative;
+  left: 20px;
+  width: 340px;
+  height: 191px;
+}
+
+.Calroie-Copy {
+  width: 33.4px;
+  height: 35px;
+  object-fit: contain;
+}
+
+.rightButtonHolder {
+  position: relative;
+  top: 20px;
+  color: white;
+  font-size: 20px;
+  padding-top: 15px;
+  width: 20%;
+  float: right;
+  text-align: right;
+}
+.data-text {
+  font-size: 18px;
+  font-weight: 800;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #727271;
+}
+
+.ic_time_icon {
+  width: 35px;
+  height: 35px;
+  object-fit: contain;
+}
+.minusTimer {
+  font-size: 10vw;
+  font-weight: bold;
+  color: white;
+}
+.vjs-seeking .vjs-loading-spinner,
+.vjs-waiting .vjs-loading-spinner {
+  display: none;
+}
+
+.vjs-loading-spinner {
+  display: none;
+}
+
+.overlay-icon {
+  float: right;
+  top: 45px;
+  margin-right: auto;
+  position: relative;
+}
+
+.workOutCompleted {
+  text-align: center;
+  color: white;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 100%;
+  width: 100%;
+  z-index: 1000;
+}
+
+.workOutCompletedHolder {
+  margin: 0 auto;
+  margin-top: 17%;
+}
+
+.verticalCentre {
+  padding-top: 40%;
+}
+
+.playerButtons { 
+  z-index: 20000;
+  margin: 6px;
+  font-size: 11px;
+}
+p {
+  display: block;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.playerButtonText{
+  font-family: SFProDisplay-bold;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+
+} 
+.doneScreenText{
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.playerButtons{
+  width: 375px !important;
+  height: 64px !important; 
+  background-color: var(--main-primary-color) !important;
+
+}
+.customClosePlayer{
+  position: static;
+  float: right;
+  width: 16px;
+  height: 30px;
+  margin-top: 0;
+  padding: 3px 10px;
+  border-radius: 30px;
+} 
+.leaveConfirmation{ 
+  font-family: SFProDisplay-bold;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+.playerButtons:hover {
+  background-color: var(--hover-color) !important;
+}
+.workOutCompletedVideoTitle {
+  font-size: 14px;
+  font-style: italic;
+}
+
+.workOutCompletedTitle {
+  font-size: 20px;
+  font-weight: 800;
+  margin-top: 10px;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+}
+
+.workOutCompletedSubTitle {
+  font-size: 14px;
+  margin-top: 10px;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+}
+
+.workOutCompletedTime {
+  font-size: 24px;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+}
+
+.ie-container-flex {
+  display: flex; 
+  background-color: #fff;
+  overflow: hidden;
+}
+
+/* 
+@media (max-width: 800px) {
+  .player-overlay {
+    flex-flow: wrap column;
+  }
+} */
+.closeButtonMobile{
+  display:  none !important;
+}
+
+@media (min-width : 768px) and (max-width : 1024px) {
+  .videoFavUnfav{
+    align-self: flex-start !important;
+    padding-top: 4.5px !important;
+    padding-bottom: 4.5px !important;
+  }
+  .LeaveConfirmationTextButton{
+    height: 24px !important;
+    margin-bottom: 18px;
+  }
+  .playerButtonText{
+    font-family: SFProRounded-regular;
+    font-size: 15px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+   
+  }
+  .playerButtons{
+    width: 140px !important;
+    height: 28px !important; 
+    background-color: var(--main-primary-color) !important;
+  }
+  .closeButtonMobile{
+    display: none;
+  }
+  .leaveConfirmation{
+    font-family: SFProRounded-regular;
+    font-size: 17px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.41;
+    letter-spacing: -0.4px;
+    text-align: center;
+    color: #ffffff;
+  }
+ 
+  .customh1{
+    font-family: SFProDisplay-bold;
+    font-size: 28px !important;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.14;
+    letter-spacing: -0.8px;
+    color: #000000;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .new-video-metadata {
+    width: 704px;
+    margin: 0 auto;
+    text-align: left;
+    margin-top: 16px;
+  }
+  .video-js {
+    /* position: relative; */
+    width: 704px;
+    height: 396px;
+    min-height: 396px;
+    object-fit: fill;
+    overflow: hidden;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.video-wrapper {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /*  animation: slideInLeft 0.3s ease; need to discuss**/
+  overflow: hidden;
+}
+.video-paused-infobox {
+  position: absolute;
+  width: 704px;
+  height: 396px;
+  /* padding-left: calc(10% - 120px); */
+  /* padding-top: 10%; */
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  background-color: rgb(0, 0, 0, 0.4);
+}
+  }
+  
+/* iPads (landscape) ----------- */
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .no-video-image {
+    width: 100%;
+    height: 354px;
+    background: linear-gradient(rgba(0, 130, 170, 0.5), rgba(0, 130, 170, 0.5));
+  }
+  .no-video-trailer {
+    width: 656.7px;
+    height: 354px;
+  }
+
+  .rightButtonHolder {
+    width: 20%;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+  .no-video-image {
+    width: 100%;
+    height: 354px;
+  }
+  .no-video-trailer {
+    width: 656.7px;
+    height: 354px;
+  }
+  .rightButtonHolder {
+    width: 28%;
+  }
+
+}
+@media(min-width:1025px){
+  .customh1{
+    font-family: SFProDisplay-bold;
+    font-size: 40px !important;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.0;
+    letter-spacing: -0.8px;
+    color: #000000;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .videoFavUnfav{
+    align-self: flex-start !important;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+}
+
+@media only screen and (min-width: 550px) and (max-width: 656px) and (orientation: portrait) {
+  .no-video-image {
+    width: 100%;
+    height: 300px;
+  }
+  .no-video-trailer {
+    width: 100vw;
+    height: 300px;
+  }
+ 
+  .video-paused-infobox { 
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /* padding-left: calc(10% - 120px); */
+    /* padding-top: 10%; */
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    background-color: rgb(0, 0, 0, 0.4);
+  } 
+}
+
+@media(min-width: 450px) and (max-width:767px) {
+  .PlayerIcon{
+    width: 22px !important;
+  }
+  .featured-iconText-Player{
+    margin-right: 38px;
+    margin-left: 6px;
+    height: 22px;
+    font-family: SFProDisplay;
+    font-size: 15px !important;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.47;
+    letter-spacing: normal;
+    color: #000000;
+  }
+  .videoFavUnfav{
+    align-self: flex-start !important;
+    padding-top: 4px !important;
+    padding-bottom: 4px !important;
+  }
+  
+  .LeaveConfirmationTextButton{
+    height: 24px !important;
+    margin-bottom: 18px;
+  }
+  .workOutCompleted {
+    text-align: center;
+    color: white;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 54.1vw;
+    width: 96vw;
+    z-index: 1000;
+  }
+  .playerButtons{
+    width: 140px !important;
+    height: 28px !important; 
+    background-color: var(--main-primary-color) !important;
+  }
+  .playerButtonText{
+    font-family: SFProRounded-regular;
+    font-size: 15px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+  }
+  .leaveConfirmation{
+    font-family: SFProRounded-regular;
+    font-size: 15px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.41;
+    letter-spacing: -0.4px;
+    text-align: center;
+    color: #ffffff;
+  }
+  .video-paused-infobox {
+    width: 96vw;
+    max-width: 1040px !important;
+    max-height: 584px !important;
+    height: 54vw; 
+    position: relative;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+}
+  .bottomTimer{
+    margin-top: 5px;
+  }
+  .customh1{
+    font-family: SFProDisplay-bold;
+    font-size: 22px !important;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 1.0;
+    font-style: normal;
+    letter-spacing: -0.2px;
+    color: #000000;
+  }
+  .new-video-metadata {
+    width: 96vw;
+    margin: 0 auto;
+    text-align: left;
+    margin-top: 16px;
+  }
+  .video-wrapper {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*  animation: slideInLeft 0.3s ease; need to discuss**/
+    overflow: hidden;
+  }
+  .video-js {
+    /* position: relative; */
+    width: 96vw;
+    max-width: 1040px !important;
+    max-height: 584px !important;
+    height: 54vw ;
+    object-fit: fill;
+    overflow: hidden;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  } 
+}
+@media(max-width:450px){
+  .PlayerIcon{
+    width: 22px !important;
+  }
+  .featured-iconText-Player{
+    margin-right: 38px;
+    margin-left: 6px;
+    height: 22px;
+    font-family: SFProDisplay;
+    font-size: 15px !important;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.47;
+    letter-spacing: normal;
+    color: #000000;
+  }
+  .videoFavUnfav{
+    align-self: flex-start !important;
+    padding-top: 0px !important;
+  }
+  .LeaveConfirmationTextButton{
+    height: 22px !important;
+    margin-bottom: 10px;
+  }
+  .doneScreenText{
+    margin-top: 3px;
+    margin-bottom: 8px;
+  }
+  .DoneTimer{
+    width: 24px ;
+    height: 24px;
+  }
+  .playerButtonText{
+    font-family: SFProRounded-regular;
+    font-size: 15px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+  }
+  .playerButtons{
+    width: 140px !important;
+    height: 28px !important; 
+    background-color: var(--main-primary-color) !important;
+  }
+  .leaveConfirmation{
+    font-family: SFProRounded-regular;
+    font-size: 15px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+  }
+  .closeButtonMobile{
+    display: flex !important;
+    height: 30px;
+    width: 30px !important;
+    margin-top: -8px;
+    margin-right: -8px;
+  }
+  .closeButtonbig{
+    display: none !important;
+    }
+  .vjs-matrix .vjs-control-bar {
+    height: 40px !important;
+  }
+  .bottomTimer{
+    padding-top: 5px;
+  }
+.new-video-metadata {
+    width: 90.6vw;
+    margin: 0 auto;
+    text-align: left;
+    margin-top: 8px;
+  }
+  .customh1{
+    font-family: SFProDisplay-bold;
+    font-size: 22px !important;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.0;
+    letter-spacing: -0.2px;
+    color: #000000;
+    margin-block-start: 0px !important;
+    margin-block-end: 0px !important;
+  }
+  .video-js {
+    /* position: relative; */
+    width: 93.2vw;
+    max-width: 1040px !important;
+    max-height: 584px !important;
+    height: 52.4vw ;
+    object-fit: fill;
+    overflow: hidden;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+
+  .video-wrapper {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*  animation: slideInLeft 0.3s ease; need to discuss**/
+    overflow: hidden;
+  }
+}
+@media (max-width: 700px) {
+ 
+  .player-thumb {
+    display: none;
+  }
+  .no-video-image {
+    width: 100%;
+    height: 354px;
+  }
+  .no-video-trailer {
+    width: 100vw;
+    height: 300x;
+  }
+
+  .rightButtonHolder {
+    position: inherit;
+    top: 0px;
+    float: none;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 15px;
+  }
+  .video-paused-infobox {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    background-color: rgb(0, 0, 0, 0.4);
+  }
+
+  .workOutCompletedHolder {
+    margin-top: 14%;
+  }
+}
+
+@media (max-width: 450px) {
+  .workOutCompletedHolder {
+    margin-top: 15%;
+  }
+  .workOutCompletedHolder img{max-width: 40px;}
+  .no-video-image {
+    width: 100%;
+    height: 240px;
+  }
+  .no-video-trailer {
+    width: 100vw;
+    height: 240px;
+  }
+   
+  .video-paused-infobox {
+    position: absolute;
+    width: 93.2vw;
+    height: 52.4vw;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    background-color: rgb(0, 0, 0, 0.4);
+  }
+}
+
+.vjs-matrix
+  .vjs-play-control
+  .vjs-play-control
+  .vjs-control
+  .vjs-button
+  .vjs-paused {
+  width: 100em !important;
+  cursor: pointer;
+}
+@media(min-width:451px){
+  .vjs-matrix .vjs-control-bar {
+    height: 63px !important;
+  }
+}
+
+.vjs-icon-play:before,
+.video-js .vjs-icon-placeholder:before,
+.video-js .vjs-play-control .vjs-icon-placeholder:before {
+  display: flex !important;
+}
+.vjs-button > .vjs-icon-placeholder:before {
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.vjs-icon-volume-high:before,
+.video-js .vjs-mute-control .vjs-icon-placeholder:before {
+  display: flex !important;
+}
+.vjs-button > .vjs-icon-placeholder:before {
+  align-items: center !important;
+  justify-content: center !important;
+}
+.vjs-matrix .vjs-remaining-time .vjs-time-control .vjs-control {
+  display: flex !important;
+  align-items: center !important;
+}
+
+.vjs-button > .vjs-icon-placeholder:before {
+  display: flex !important;
+  align-items: center !important;
+}
+.vjs-remaining-time-display {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+.video-js .vjs-volume-panel {
+  display: flex !important;
+  align-items: center !important;
+}
+
+/* .vjs-icon-circle:before, .video-js .vjs-play-progress:before, .video-js .vjs-volume-level:before, .vjs-seek-to-live-control .vjs-icon-placeholder:before{
+  content:none !important;
+} */
+
+.vjs-button > .vjs-icon-placeholder:before {
+  font-size: 24px !important;
+}
+.vjs-icon-play:before,
+.video-js .vjs-icon-placeholder:before,
+.video-js .vjs-play-control .vjs-icon-placeholder:before {
+  justify-content: center;
+}
+
+/* 
+@media (max-width: 1100px) {
+
+} */
+.newStrip{
+ 
+  justify-content: center;
+  
+  height: 100%;
+  background-color: rgba(0,0,0,.5);
+  
+}
+.video-js .vjs-tech{
+  border-radius: 0px !important;
+}
+.video-js .vjs-fullscreen-control{
+  outline: none;
+}
+.vjs-tech,vjs-fullscreen-control {
+  outline: none !important;
+}
+.vjs-control-bar {
+  background-color: rgb(0, 0, 0, 0.7) !important;
+}
+.video-paused-infobox-leave{
+  background-color: transparent !important
+}
+.videoOverlayText{
+  width: 100%;
+  text-transform: none;
+}
+
+vjs-play-progress{
+  height: 4px !important;
+}
