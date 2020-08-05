@@ -1,0 +1,270 @@
+
+
+.tick svg {
+  display: block;
+  width: 1em;
+  height: 1em;
+  fill: currentColor;
+  box-sizing: inherit;
+}
+.svg {
+  display: block;
+  width: 1em;
+  height: 1em;
+  fill: currentColor;
+  box-sizing: inherit;
+}
+.selectContainer {
+  padding: 5px;
+  box-sizing: inherit;
+}
+
+.select {
+  box-sizing: inherit;
+  position: relative;
+  display: inline-block;
+  box-sizing: inherit;
+  width: 98%;
+}
+
+.select:focus {
+  outline: 0;
+  box-sizing: inherit;
+}
+
+.label {
+  box-sizing: inherit;
+  display: block;
+  margin-bottom: 11px;
+  font-weight: normal;
+  height: 26px;
+  font-size: 20px;
+  font-family: SFProDisplay-Bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  padding-left: 26px;
+}
+
+.selection {
+  box-sizing: inherit;
+  height: 36px;
+  border-radius: 3px;
+  background-color: #ffffff;
+  position: relative;
+  padding: 4px;
+  border: 1px solid #ddd;
+  background: #fff;
+  overflow: hidden;
+  cursor: pointer;
+  text-align: left;
+  display: flex;
+}
+
+.value {
+  box-sizing: inherit;
+  position: relative;
+  display: inline-block;
+  padding: 5px 0px 0px 5px;
+  
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+.multiple {
+  box-sizing: inherit;
+  padding: 5px 20px  5px 20px;
+  font-family: SFProDisplay-Bold;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  color: #ffffff;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  background: var(--main-primary-color);
+  z-index: 99;
+}
+.multiple-single {
+  box-sizing: inherit;
+  padding: 5px 20px  5px 20px;
+  font-family: SFProDisplay-Bold;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: normal; 
+  color: #ffffff;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  background: var(--main-primary-color);
+  z-index: 99;
+}
+
+.delete {
+  box-sizing: inherit;
+  overflow-wrap: break-word;
+  height: 23px;
+  width: 23px;
+  position: absolute;
+  top: 7px;
+  right: 0px;
+  display: block;
+  padding: 3px;
+  font-size: 20px;
+  cursor: pointer;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+.placeholder {
+  box-sizing: inherit;
+  padding: 5px 0  5px 22px;
+  font-family: SFProDisplay-Bold;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+.containerGreyBlowCards {
+  box-sizing: inherit;
+  background-color: green;
+  height: fit-content;
+  min-height: max-content;
+  min-width: 100%;
+}
+.arrow {
+  box-sizing: inherit;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: block;
+  width: 20px;
+  height: 20px;
+  background: url("../images/arrow-down.png") 0 0 no-repeat;
+}
+
+.options {
+  position: absolute;
+  width: 100%;
+  max-width: 376px;
+  height: auto;
+  max-height: 200px;
+  top: 83%;
+  left: 0;
+  margin:auto;
+  border: none;
+  background: var(--main-primary-color);
+  color: #fff;
+  overflow-y: auto;
+  word-wrap: break-word;
+  z-index: 99999;
+  font-family: SFProDisplay-Bold;
+  font-size: 20px;
+  border-bottom-right-radius: 24px;
+  border-bottom-left-radius: 24px;
+  padding: 20px 0 15px 0;
+}
+/* .options span{padding-left: 15px; min-height: 48px;} */
+.option {
+  padding: 14px 24px 10px 24px;
+  border-bottom: none;
+  cursor: pointer;
+  font-family: SFProDisplay-Bold;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #fff;
+  justify-content: center;
+  text-align: left;
+  word-wrap: none;
+  word-break: normal;
+  overflow: hidden;
+}
+.option-selected span:parent {
+  cursor: default;
+}
+.option-selected {
+  box-sizing: inherit;
+  padding-bottom: 8px ;
+  border-bottom: none;
+  font-family: SFProDisplay-Bold;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #fff;
+  text-align: left;
+  word-wrap: none;
+  word-break: normal;
+  overflow: hidden;
+  cursor: default;
+}
+.option:hover {
+  box-sizing: inherit;
+  background-color: #fff;
+  color: var(--main-primary-color);
+}
+.option:hover span {
+  box-sizing: inherit;
+  /* color: #fff;
+  background:var(--main-primary-color); */
+}
+
+.imagetick {
+  background-image: url(//ssl.gstatic.com/ui/v1/menu/checkmark2.png);
+
+  background-repeat: no-repeat;
+}
+.checkbox {
+  box-sizing: inherit;
+  content: "";
+  vertical-align: top;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  padding: 2px;
+  padding-top: 50% !important;
+  border-radius: 2px;
+  margin: 2px 12px 0 0;
+  color: #fff;
+  font-size: 10px;
+}
+.custom-drop{
+  width: 100%;
+  max-width: 376px;
+  border-radius: 24px;
+  background-color: var(--main-primary-color);
+  height: 48px;
+  border: none;
+}
+@media (max-width: 720px) {
+  .custom-drop, .options {
+    max-width: 100%;
+}
+}
+@media (max-width: 600px) {
+  .label {
+    display: none;
+  }
+  .options {
+    top: 30px;  }
+  
+}
