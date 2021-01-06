@@ -10,7 +10,7 @@
     "@stripe/react-stripe-js": "^1.1.2",
     "@stripe/stripe-js": "^1.3.1",
     "apisauce": "^0.16.0",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "date-fns": "^1.30.1",
     "dotenv": "^6.2.0",
     "moment": "^2.22.2",
