@@ -44,7 +44,7 @@
     "redux-thunk": "^2.3.0",
     "reselect": "^4.0.0",
     "start": "^5.1.0",
-    "video.js": "^7.5.4",
+    "video.js": "^7.20.3",
     "videojs-contrib-hls": "^5.15.0",
     "webfontloader": "^1.6.28"
   },
